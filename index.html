@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  
+  <script src="https://kit.fontawesome.com/abe1c9cbd2.js" crossorigin="anonymous"></script>
+
+  <title>The Young Chef</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <img class="tasty-logo" src="https://play-lh.googleusercontent.com/gcAQcWADEZsAU8DPXisFrTF2Y9eFNF-l7IZmYt0oOLK4vXewovKreaz6jEBG_2wWNw" alt="">
+
+  <div class="tasty-text">
+      Powered By:
+  </div>
+
+  <header>
+    <h1 class="title">the young chef</h1>
+    <img class="title-img" src="https://images.unsplash.com/photo-1615224299941-04a854c101d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" alt="">
+    <p class="title-quote">" No one is born a great cook, one learns by doing "</p>
+    <p class="title-author">- Julia Child</p>
+  </header>
+
+  <div class="search-container">
+    <input type="text" class="search-box" placeholder="Let's Search For A Recipe! ex: tacos" id="search-box">
+    <button type="submit" class="search-btn btn" id="search-btn">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+  </div>
+
+  <div class="meals-title" id="meals-title"></div>
+  <div class="meals-container" id="search-result">
+    <div class="meals-results" id="meals-feed"></div>  
+  </div>
+
+
+  <div class="recipe-container">
+    <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+      <i class="fas fa-times"></i>
+    </button>
+
+    <div class="recipe-details" id="recipe-details">
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
