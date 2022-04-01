@@ -318,6 +318,12 @@
   .meal-item {
     height: 350px;
   }
+  .search-container {
+    position: absolute;
+    top:750px;
+    width: 80%;
+    margin: 0 10%;
+  }
 }
 
 
