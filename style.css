@@ -243,6 +243,7 @@
 .recipe-name {
   letter-spacing: 1px;
   padding: 5%;
+  font-size: 1.7rem;
 }
 
 .recipe-title {
@@ -261,6 +262,7 @@
 
 .recipe-instructions {
   padding: 1rem;
+  font-size: 1.5rem;
 }
 
 .recipe-meal-img img {
