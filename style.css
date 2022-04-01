@@ -114,27 +114,6 @@
   cursor: pointer;
 }
 
-@media only screen and (min-width: 800px) {
-  .tasty-logo {
-    top: 600px;
-    right: 26px;
-    height: 150px;
-    width: 150px;
-  }
-  .tasty-text {
-    top: 590px;
-    right: 50px;
-  }
-}
-
-@media only screen and (min-width: 1080px) {
-  .search-container {
-    position: absolute;
-    top: 730px;
-    width: 80%;
-    margin-left: 10%;
-  }
-}
 
 /* MEAL RESULTS */
 
@@ -313,4 +292,39 @@
 
 .showRecipe {
   display: block;
+}
+
+
+@media only screen and (min-width: 800px) {
+  .tasty-logo {
+    top: 600px;
+    right: 26px;
+    height: 150px;
+    width: 150px;
+  }
+  .tasty-text {
+    top: 590px;
+    right: 50px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #meals-feed {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .meal-item {
+    height: 350px;
+  }
+}
+
+
+@media only screen and (min-width: 2200px) {
+  #meals-feed {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .title-img {
+    width: 100%;
+    max-height: 100vh;
+  }
 }
